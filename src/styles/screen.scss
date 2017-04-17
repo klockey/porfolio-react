@@ -9,5 +9,86 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
   font: $base-text-size / 1 $base-font-family;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-flex {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.container {
+  height: 25px;
+  position: absolute;
+  bottom: 0;
+  background-color: black;
+  border-radius: 25px;
+}
+
+.item {
+  list-style: none;
+  text-align: center;
+  width: 100px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.header {
+  background-image: url("../images/swirley2.png");
+  height: 100px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 100%;
+}
+
+.history {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 30%;
+  left: 47%;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  }
+
+.van {
+  top: 45%;
+  left: 37%;
+}
+
+.move-me {
+  position: absolute;
+  top: 60%;
+  left: 47%;
+}
+
+#axis:hover .move-right {
+  transform: translate(350px, 0);
+  -webkit-transform: translate(350px, 0); /** Chrome & Safari **/
+  -o-transform: translate(350px, 0); /** Opera **/
+  -moz-transform: translate(350px, 0); /** Firefox **/
+}
+
+.object {
+  position: absolute;
+  transition: all 2s ease-in-out;
+  -webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
+  -moz-transition: all 2s ease-in-out; /** Firefox **/
+  -o-transition: all 2s ease-in-out; /** Opera **/
 }
