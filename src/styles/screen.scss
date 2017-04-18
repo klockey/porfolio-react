@@ -55,17 +55,22 @@ body {
   flex-direction: column;
   position: absolute;
   top: 30%;
-  left: 47%;
+  left: 40%;
 }
 
 .footer {
+  flex: 1;
   position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1rem;
   text-align: center;
-  }
+}
+.x {
+  align-self: center;
+}
+
 
 .van {
   top: 45%;

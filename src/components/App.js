@@ -41,12 +41,12 @@
               <img className='object van move-right' src={vanpicture} />
             </div>
 
-            <span className='move-me'> (Move it!)</span>
+            {/* <span className='move-me'> move it </span> */}
 
-            <div className='footer'>
-              <span className='item-footer'>Home</span>
-              <span className='item-footer'>Index</span>
-              <span className='item-footer'>More</span>
+            <div className='container-flex container x'>
+              <span className='item'>Home</span>
+              <span className='item'>Index</span>
+              <span className='item'>More</span>
             </div>
           </div>
         )
