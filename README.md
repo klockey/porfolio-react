@@ -1,4 +1,4 @@
 # Portfolio React
 
 
-Portfolio of repositories resume etc. partially written in react.
+Portfolio of **repositories, resume** etc. partially written in react.
